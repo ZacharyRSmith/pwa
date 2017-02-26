@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "http-server": "^0.9.0",
+    "offline-plugin": "^4.6.1",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server ./assets"
+  },
+  "name": "pwa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
